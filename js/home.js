@@ -38,6 +38,7 @@ window.addEventListener("load", () => {
       if (sibl.classList.contains("active")) {
         elParent.style.height = `${hgItem}px`;
         el.querySelector("img").classList.remove("rotate");
+        el.classList.remove("active");
         setTimeout(function () {
           sibl.classList.remove("active");
           //   elParent.style.height = "auto";
