@@ -892,7 +892,10 @@ header {
         @media (max-width: 440px) {
           #container #magic-reviews > div .magic-review-boxes .boxes {
             display: flex;
-            gap: 13px; } }
+            gap: 13px;
+            /* width */ }
+            #container #magic-reviews > div .magic-review-boxes .boxes::-webkit-scrollbar {
+              width: 0px; } }
         #container #magic-reviews > div .magic-review-boxes .boxes > div {
           display: flex;
           flex-direction: column;

@@ -40,4 +40,30 @@ window.addEventListener("load", () => {
       boxesContainer.style.transform = "translateX(0)";
     }
   });
+
+  let startingX, movingX;
+  function touchStart(evt) {
+    startingX = evt.touches[0].clientX;
+  }
+  function touchMove(evt) {
+    movingX = evt.touches[0].clientX;
+  }
+  function touchEnd() {
+    let dotActive = document.querySelector(".review-dots .active");
+    if (startingX + 100 < movingX && window.innerWidth <= 440) {
+      dotActive.previousElementSibling
+        ? dotActive.previousElementSibling.click()
+        : false;
+    } else if (startingX - 100 > movingX && window.innerWidth <= 440) {
+      dotActive.nextElementSibling
+        ? dotActive.nextElementSibling.click()
+        : false;
+    }
+  }
+
+  allBoxes.forEach((item, idx) => {
+    item.addEventListener("touchstart", touchStart);
+    item.addEventListener("touchmove", touchMove);
+    item.addEventListener("touchend", touchEnd);
+  });
 });
