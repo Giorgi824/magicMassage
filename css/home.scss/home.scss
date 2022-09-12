@@ -72,6 +72,9 @@ button {
     font-size: 13px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   min-height: 100vh;
   display: flex;
@@ -160,8 +163,8 @@ header {
 }
 // full container
 #container {
-  // all-in-one section
-  #all-in-one {
+  // magicMassage section
+  #magicMassage {
     background-color: #fbfbfb;
     padding-top: 3.938rem;
     padding-bottom: 3.125rem;

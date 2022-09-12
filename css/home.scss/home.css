@@ -1,4 +1,4 @@
-header > p, #container #all-in-one > div .lower-part .btn, #container #magic-features .features-container .limited-offers > div .product, #container #magic-features .features-container .limited-offers > div .price, #container #magic-features .features-container .limited-offers > div .remaining .orders-remain, #container #magic-features .features-container .limited-offers > div .money-back, #container #magic-features .features-container .limited-offers > div .afterpay, #container #magic-faq > h1,
+header > p, #container #magicMassage > div .lower-part .btn, #container #magic-features .features-container .limited-offers > div .product, #container #magic-features .features-container .limited-offers > div .price, #container #magic-features .features-container .limited-offers > div .remaining .orders-remain, #container #magic-features .features-container .limited-offers > div .money-back, #container #magic-features .features-container .limited-offers > div .afterpay, #container #magic-faq > h1,
 #container #magic-faq > h2,
 #container #magic-faq > h3,
 #container #magic-faq > h4,
@@ -8,7 +8,7 @@ header > p, #container #all-in-one > div .lower-part .btn, #container #magic-fea
   justify-content: center;
   align-items: center; }
 
-#container #all-in-one > div .lower-part .btn > button, #container #all-in-one > div .lower-part .btn span, #container #all-in-one > div .lower-part .review > span, #container #all-in-one > div .lower-part .review > div > div .stars, #container #all-in-one > div .lower-part .review > div > div .verified, #container #magic-features .magic-triple-offers > div > div, #container #magic-features .magic-triple-offers > div > div > span, #container #magic-features .features-container .limited-offers > div .product > span, #container #magic-features .features-container .limited-offers > div .remaining .save-moneback > *, #container #magic-features .features-container .limited-offers > div .remaining .save-moneback > span, #container #magic-features .features-container .limited-offers > div .afterpay span, #container #magic-faq > h1 strong,
+#container #magicMassage > div .lower-part .btn > button, #container #magicMassage > div .lower-part .btn span, #container #magicMassage > div .lower-part .review > span, #container #magicMassage > div .lower-part .review > div > div .stars, #container #magicMassage > div .lower-part .review > div > div .verified, #container #magic-features .magic-triple-offers > div > div, #container #magic-features .magic-triple-offers > div > div > span, #container #magic-features .features-container .limited-offers > div .product > span, #container #magic-features .features-container .limited-offers > div .remaining .save-moneback > *, #container #magic-features .features-container .limited-offers > div .remaining .save-moneback > span, #container #magic-features .features-container .limited-offers > div .afterpay span, #container #magic-faq > h1 strong,
 #container #magic-faq > h2 strong,
 #container #magic-faq > h3 strong,
 #container #magic-faq > h4 strong,
@@ -18,7 +18,7 @@ header > p, #container #all-in-one > div .lower-part .btn, #container #magic-fea
   justify-content: center;
   align-items: center; }
 
-header > div, #container #all-in-one > div, #container #magic-features .magic-triple-offers > div, #container #magic-features .features-container .limited-offers, #container #magic-faq > div {
+header > div, #container #magicMassage > div, #container #magic-features .magic-triple-offers > div, #container #magic-features .features-container .limited-offers, #container #magic-faq > div {
   width: calc(100% - 36px);
   max-width: 1260px;
   margin: 0 auto; }
@@ -65,6 +65,9 @@ button {
   @media (max-width: 720px) {
     :root {
       font-size: 13px; } }
+
+html {
+  scroll-behavior: smooth; }
 
 body {
   min-height: 100vh;
@@ -135,126 +138,126 @@ header {
       header > div > ul li a.active {
         opacity: 1; }
 
-#container #all-in-one {
+#container #magicMassage {
   background-color: #fbfbfb;
   padding-top: 3.938rem;
   padding-bottom: 3.125rem; }
   @media (max-width: 720px) {
-    #container #all-in-one {
+    #container #magicMassage {
       padding-bottom: 28px;
       padding-top: 13px; } }
   @media (max-width: 520px) {
-    #container #all-in-one {
+    #container #magicMassage {
       background-color: #f5fdff; } }
   @media (max-width: 820px) {
-    #container #all-in-one > div .upper-part {
+    #container #magicMassage > div .upper-part {
       display: grid;
       grid-template-columns: 1fr 174px;
       grid-gap: 20px 70px; } }
   @media (max-width: 520px) {
-    #container #all-in-one > div .upper-part {
+    #container #magicMassage > div .upper-part {
       grid-gap: 20px; } }
-  #container #all-in-one > div .upper-part::after {
+  #container #magicMassage > div .upper-part::after {
     display: block;
     content: "";
     clear: both; }
     @media (max-width: 720px) {
-      #container #all-in-one > div .upper-part::after {
+      #container #magicMassage > div .upper-part::after {
         display: none; } }
-  #container #all-in-one > div .upper-part > h1,
-  #container #all-in-one > div .upper-part > h2,
-  #container #all-in-one > div .upper-part > h3,
-  #container #all-in-one > div .upper-part > h4,
-  #container #all-in-one > div .upper-part > h5,
-  #container #all-in-one > div .upper-part > h6 {
+  #container #magicMassage > div .upper-part > h1,
+  #container #magicMassage > div .upper-part > h2,
+  #container #magicMassage > div .upper-part > h3,
+  #container #magicMassage > div .upper-part > h4,
+  #container #magicMassage > div .upper-part > h5,
+  #container #magicMassage > div .upper-part > h6 {
     font-size: 2.625rem;
     font-family: "Conv_Mont-SemiBold";
     margin-bottom: 25px;
     max-width: calc(100% - 200px); }
     @media (max-width: 820px) {
-      #container #all-in-one > div .upper-part > h1,
-      #container #all-in-one > div .upper-part > h2,
-      #container #all-in-one > div .upper-part > h3,
-      #container #all-in-one > div .upper-part > h4,
-      #container #all-in-one > div .upper-part > h5,
-      #container #all-in-one > div .upper-part > h6 {
+      #container #magicMassage > div .upper-part > h1,
+      #container #magicMassage > div .upper-part > h2,
+      #container #magicMassage > div .upper-part > h3,
+      #container #magicMassage > div .upper-part > h4,
+      #container #magicMassage > div .upper-part > h5,
+      #container #magicMassage > div .upper-part > h6 {
         max-width: inherit;
         font-size: 26px; } }
-    #container #all-in-one > div .upper-part > h1 strong,
-    #container #all-in-one > div .upper-part > h2 strong,
-    #container #all-in-one > div .upper-part > h3 strong,
-    #container #all-in-one > div .upper-part > h4 strong,
-    #container #all-in-one > div .upper-part > h5 strong,
-    #container #all-in-one > div .upper-part > h6 strong {
+    #container #magicMassage > div .upper-part > h1 strong,
+    #container #magicMassage > div .upper-part > h2 strong,
+    #container #magicMassage > div .upper-part > h3 strong,
+    #container #magicMassage > div .upper-part > h4 strong,
+    #container #magicMassage > div .upper-part > h5 strong,
+    #container #magicMassage > div .upper-part > h6 strong {
       position: relative;
       color: #197aff;
       font-family: "Conv_Mont-Bold";
       display: inline-block; }
-      #container #all-in-one > div .upper-part > h1 strong::after,
-      #container #all-in-one > div .upper-part > h2 strong::after,
-      #container #all-in-one > div .upper-part > h3 strong::after,
-      #container #all-in-one > div .upper-part > h4 strong::after,
-      #container #all-in-one > div .upper-part > h5 strong::after,
-      #container #all-in-one > div .upper-part > h6 strong::after {
+      #container #magicMassage > div .upper-part > h1 strong::after,
+      #container #magicMassage > div .upper-part > h2 strong::after,
+      #container #magicMassage > div .upper-part > h3 strong::after,
+      #container #magicMassage > div .upper-part > h4 strong::after,
+      #container #magicMassage > div .upper-part > h5 strong::after,
+      #container #magicMassage > div .upper-part > h6 strong::after {
         content: url(../../img/underline.svg);
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         top: 1.438rem; }
         @media (max-width: 820px) {
-          #container #all-in-one > div .upper-part > h1 strong::after,
-          #container #all-in-one > div .upper-part > h2 strong::after,
-          #container #all-in-one > div .upper-part > h3 strong::after,
-          #container #all-in-one > div .upper-part > h4 strong::after,
-          #container #all-in-one > div .upper-part > h5 strong::after,
-          #container #all-in-one > div .upper-part > h6 strong::after {
+          #container #magicMassage > div .upper-part > h1 strong::after,
+          #container #magicMassage > div .upper-part > h2 strong::after,
+          #container #magicMassage > div .upper-part > h3 strong::after,
+          #container #magicMassage > div .upper-part > h4 strong::after,
+          #container #magicMassage > div .upper-part > h5 strong::after,
+          #container #magicMassage > div .upper-part > h6 strong::after {
             content: url(../../img/mobile-blue-stroke.svg);
             top: 1.2rem; } }
-      #container #all-in-one > div .upper-part > h1 strong::before,
-      #container #all-in-one > div .upper-part > h2 strong::before,
-      #container #all-in-one > div .upper-part > h3 strong::before,
-      #container #all-in-one > div .upper-part > h4 strong::before,
-      #container #all-in-one > div .upper-part > h5 strong::before,
-      #container #all-in-one > div .upper-part > h6 strong::before {
+      #container #magicMassage > div .upper-part > h1 strong::before,
+      #container #magicMassage > div .upper-part > h2 strong::before,
+      #container #magicMassage > div .upper-part > h3 strong::before,
+      #container #magicMassage > div .upper-part > h4 strong::before,
+      #container #magicMassage > div .upper-part > h5 strong::before,
+      #container #magicMassage > div .upper-part > h6 strong::before {
         content: url(../../img/blue-arrow.svg);
         position: absolute;
         right: -86px;
         top: -10px;
         transform: rotateZ(280deg); }
         @media (max-width: 720px) {
-          #container #all-in-one > div .upper-part > h1 strong::before,
-          #container #all-in-one > div .upper-part > h2 strong::before,
-          #container #all-in-one > div .upper-part > h3 strong::before,
-          #container #all-in-one > div .upper-part > h4 strong::before,
-          #container #all-in-one > div .upper-part > h5 strong::before,
-          #container #all-in-one > div .upper-part > h6 strong::before {
+          #container #magicMassage > div .upper-part > h1 strong::before,
+          #container #magicMassage > div .upper-part > h2 strong::before,
+          #container #magicMassage > div .upper-part > h3 strong::before,
+          #container #magicMassage > div .upper-part > h4 strong::before,
+          #container #magicMassage > div .upper-part > h5 strong::before,
+          #container #magicMassage > div .upper-part > h6 strong::before {
             transform: matrix(0.28, -0.96, -0.96, -0.28, 0, 0) rotateZ(192deg); } }
-  #container #all-in-one > div .upper-part > div {
+  #container #magicMassage > div .upper-part > div {
     max-width: 686px;
     display: flex;
     flex-direction: column; }
     @media (max-width: 820px) {
-      #container #all-in-one > div .upper-part > div {
+      #container #magicMassage > div .upper-part > div {
         max-width: inherit;
         grid-column-start: 1;
         grid-column-end: 3; } }
-    #container #all-in-one > div .upper-part > div .text {
+    #container #magicMassage > div .upper-part > div .text {
       margin-bottom: 25px;
       float: left; }
       @media (max-width: 820px) {
-        #container #all-in-one > div .upper-part > div .text {
+        #container #magicMassage > div .upper-part > div .text {
           float: none; } }
-      #container #all-in-one > div .upper-part > div .text p {
+      #container #magicMassage > div .upper-part > div .text p {
         font-size: 1.125rem;
         line-height: 1.75rem;
         color: #262626; }
         @media (max-width: 820px) {
-          #container #all-in-one > div .upper-part > div .text p {
+          #container #magicMassage > div .upper-part > div .text p {
             text-align: center; } }
         @media (max-width: 520px) {
-          #container #all-in-one > div .upper-part > div .text p {
+          #container #magicMassage > div .upper-part > div .text p {
             font-size: 14px; } }
-    #container #all-in-one > div .upper-part > div .massage-types {
+    #container #magicMassage > div .upper-part > div .massage-types {
       width: 100%;
       float: left;
       display: flex;
@@ -263,11 +266,11 @@ header {
       border-radius: 10px;
       padding: 0.938rem 0; }
       @media (max-width: 520px) {
-        #container #all-in-one > div .upper-part > div .massage-types {
+        #container #magicMassage > div .upper-part > div .massage-types {
           background: none;
           border: none;
           padding: 0; } }
-      #container #all-in-one > div .upper-part > div .massage-types > div {
+      #container #magicMassage > div .upper-part > div .massage-types > div {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -277,56 +280,56 @@ header {
         text-align: center;
         border-right: 1px solid #cee2ff; }
         @media (max-width: 520px) {
-          #container #all-in-one > div .upper-part > div .massage-types > div {
+          #container #magicMassage > div .upper-part > div .massage-types > div {
             border-right: none; } }
-        #container #all-in-one > div .upper-part > div .massage-types > div > img {
+        #container #magicMassage > div .upper-part > div .massage-types > div > img {
           max-height: 40px; }
-        #container #all-in-one > div .upper-part > div .massage-types > div > div {
+        #container #magicMassage > div .upper-part > div .massage-types > div > div {
           font-size: 0.875rem;
           color: #11346f;
           margin-top: 0.938rem;
           margin-bottom: 5px; }
           @media (max-width: 520px) {
-            #container #all-in-one > div .upper-part > div .massage-types > div > div {
+            #container #magicMassage > div .upper-part > div .massage-types > div > div {
               font-size: 12px; } }
         @media (max-width: 520px) {
-          #container #all-in-one > div .upper-part > div .massage-types > div ul {
+          #container #magicMassage > div .upper-part > div .massage-types > div ul {
             display: none; } }
-        #container #all-in-one > div .upper-part > div .massage-types > div ul li {
+        #container #magicMassage > div .upper-part > div .massage-types > div ul li {
           font-size: 0.75rem;
           line-height: 1.25rem; }
-          #container #all-in-one > div .upper-part > div .massage-types > div ul li::before {
+          #container #magicMassage > div .upper-part > div .massage-types > div ul li::before {
             display: inline-block;
             border-radius: 50%; }
             @media (max-width: 520px) {
-              #container #all-in-one > div .upper-part > div .massage-types > div ul li::before {
+              #container #magicMassage > div .upper-part > div .massage-types > div ul li::before {
                 display: none; } }
-      #container #all-in-one > div .upper-part > div .massage-types > div:last-child {
+      #container #magicMassage > div .upper-part > div .massage-types > div:last-child {
         border-right: none; }
-  #container #all-in-one > div .upper-part > span {
+  #container #magicMassage > div .upper-part > span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     float: right;
     margin-left: 20px; }
     @media (max-width: 820px) {
-      #container #all-in-one > div .upper-part > span {
+      #container #magicMassage > div .upper-part > span {
         float: none; } }
     @media (max-width: 360px) {
-      #container #all-in-one > div .upper-part > span {
+      #container #magicMassage > div .upper-part > span {
         margin-left: 0; } }
-    #container #all-in-one > div .upper-part > span img {
+    #container #magicMassage > div .upper-part > span img {
       max-height: 241px; }
       @media (max-width: 1020px) {
-        #container #all-in-one > div .upper-part > span img {
+        #container #magicMassage > div .upper-part > span img {
           max-height: 200px; } }
       @media (max-width: 920px) {
-        #container #all-in-one > div .upper-part > span img {
+        #container #magicMassage > div .upper-part > span img {
           max-height: 170px; } }
       @media (max-width: 820px) {
-        #container #all-in-one > div .upper-part > span img {
+        #container #magicMassage > div .upper-part > span img {
           max-height: 107px; } }
-  #container #all-in-one > div .lower-part {
+  #container #magicMassage > div .lower-part {
     margin-top: 3.25rem;
     display: flex;
     justify-content: space-between;
@@ -334,18 +337,18 @@ header {
     gap: 30px;
     flex-wrap: wrap; }
     @media (max-width: 720px) {
-      #container #all-in-one > div .lower-part {
+      #container #magicMassage > div .lower-part {
         justify-content: center;
         gap: 1rem; } }
     @media (max-width: 520px) {
-      #container #all-in-one > div .lower-part {
+      #container #magicMassage > div .lower-part {
         margin-top: 20px; } }
-    #container #all-in-one > div .lower-part .btn {
+    #container #magicMassage > div .lower-part .btn {
       flex-direction: column; }
       @media (max-width: 720px) {
-        #container #all-in-one > div .lower-part .btn {
+        #container #magicMassage > div .lower-part .btn {
           width: 100%; } }
-      #container #all-in-one > div .lower-part .btn > button {
+      #container #magicMassage > div .lower-part .btn > button {
         background-color: #197aff;
         color: #fff;
         padding: 1.188rem 3.563rem;
@@ -353,11 +356,11 @@ header {
         margin-bottom: 1.125rem;
         font-family: "Conv_Mont-SemiBold"; }
         @media (max-width: 720px) {
-          #container #all-in-one > div .lower-part .btn > button {
+          #container #magicMassage > div .lower-part .btn > button {
             width: 100%;
             max-width: 377px;
             margin-bottom: 1rem; } }
-      #container #all-in-one > div .lower-part .btn span {
+      #container #magicMassage > div .lower-part .btn span {
         background: rgba(77, 145, 207, 0.15);
         box-shadow: 0px 0px 14px #ffffff;
         border-radius: 30px;
@@ -365,14 +368,14 @@ header {
         color: #000;
         font-size: 15px; }
         @media (max-width: 720px) {
-          #container #all-in-one > div .lower-part .btn span {
+          #container #magicMassage > div .lower-part .btn span {
             font-size: 13px; } }
-        #container #all-in-one > div .lower-part .btn span strong {
+        #container #magicMassage > div .lower-part .btn span strong {
           color: #197aff;
           display: inline-block;
           margin: 0 5px;
           font-size: 15px; }
-    #container #all-in-one > div .lower-part .review {
+    #container #magicMassage > div .lower-part .review {
       background: rgba(234, 242, 255, 0.1);
       border: 1px solid rgba(174, 204, 255, 0.5);
       border-radius: 110px;
@@ -384,39 +387,39 @@ header {
       align-self: flex-end;
       margin-bottom: -1rem; }
       @media (max-width: 720px) {
-        #container #all-in-one > div .lower-part .review {
+        #container #magicMassage > div .lower-part .review {
           width: 100%;
           max-width: 377px;
           margin-bottom: 0;
           align-self: inherit; } }
-      #container #all-in-one > div .lower-part .review > span {
+      #container #magicMassage > div .lower-part .review > span {
         width: 64px;
         height: 64px; }
-        #container #all-in-one > div .lower-part .review > span img {
+        #container #magicMassage > div .lower-part .review > span img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           object-position: center; }
-      #container #all-in-one > div .lower-part .review > div > p {
+      #container #magicMassage > div .lower-part .review > div > p {
         max-width: 222px;
         margin-bottom: 10px;
         line-height: 17px;
         font-size: 0.75rem;
         font-family: "Conv_Mont-SemiBold"; }
-      #container #all-in-one > div .lower-part .review > div > div {
+      #container #magicMassage > div .lower-part .review > div > div {
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 2rem; }
-        #container #all-in-one > div .lower-part .review > div > div .stars {
+        #container #magicMassage > div .lower-part .review > div > div .stars {
           gap: 5px; }
-          #container #all-in-one > div .lower-part .review > div > div .stars span {
+          #container #magicMassage > div .lower-part .review > div > div .stars span {
             font-size: 0.75rem;
             color: #787979;
             font-family: "Conv_Mont-SemiBold"; }
-        #container #all-in-one > div .lower-part .review > div > div .verified {
+        #container #magicMassage > div .lower-part .review > div > div .verified {
           gap: 6px; }
-          #container #all-in-one > div .lower-part .review > div > div .verified span {
+          #container #magicMassage > div .lower-part .review > div > div .verified span {
             font-size: 0.688rem;
             color: #197aff;
             font-family: "Conv_Mont-SemiBold"; }
