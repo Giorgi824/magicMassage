@@ -848,117 +848,115 @@ header {
             #container #magic-reviews > div > h5 strong::after,
             #container #magic-reviews > div > h6 strong::after {
               content: url(../../img/review-mobile-blue-stroke.svg); } }
-    #container #magic-reviews > div .magic-review-boxes {
-      overflow: hidden; }
-      #container #magic-reviews > div .magic-review-boxes .total {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 15px;
-        flex-wrap: wrap;
-        margin-bottom: 18px; }
+    #container #magic-reviews > div .magic-review-boxes .total {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 18px; }
+      @media (max-width: 440px) {
+        #container #magic-reviews > div .magic-review-boxes .total {
+          padding-right: 18px; } }
+      #container #magic-reviews > div .magic-review-boxes .total button {
+        font-size: 14px;
+        color: #3a3075;
+        background: #f6f8fc;
+        border: 1px solid #213786;
+        border-radius: 5px;
+        padding: 7px 20px;
+        cursor: pointer; }
+      #container #magic-reviews > div .magic-review-boxes .total > div {
+        gap: 7px; }
         @media (max-width: 440px) {
-          #container #magic-reviews > div .magic-review-boxes .total {
-            padding-right: 18px; } }
-        #container #magic-reviews > div .magic-review-boxes .total button {
+          #container #magic-reviews > div .magic-review-boxes .total > div {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px; } }
+        #container #magic-reviews > div .magic-review-boxes .total > div span {
+          color: #11346f;
           font-size: 14px;
-          color: #3a3075;
-          background: #f6f8fc;
-          border: 1px solid #213786;
-          border-radius: 5px;
-          padding: 7px 20px;
-          cursor: pointer; }
-        #container #magic-reviews > div .magic-review-boxes .total > div {
-          gap: 7px; }
-          @media (max-width: 440px) {
-            #container #magic-reviews > div .magic-review-boxes .total > div {
-              flex-direction: column;
-              align-items: flex-start;
-              gap: 5px; } }
-          #container #magic-reviews > div .magic-review-boxes .total > div span {
-            color: #11346f;
-            font-size: 14px;
-            font-family: "Conv_Mont-SemiBold"; }
-      #container #magic-reviews > div .magic-review-boxes .boxes {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-        grid-gap: 30px;
-        transition: transform 0.2s ease-in-out;
-        transform: translateX(0); }
-        @media (max-width: 640px) {
-          #container #magic-reviews > div .magic-review-boxes .boxes {
-            grid-gap: 15px;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); } }
-        @media (max-width: 440px) {
-          #container #magic-reviews > div .magic-review-boxes .boxes {
-            display: flex;
-            gap: 13px;
-            /* width */ }
-            #container #magic-reviews > div .magic-review-boxes .boxes::-webkit-scrollbar {
-              width: 0px; } }
-        #container #magic-reviews > div .magic-review-boxes .boxes > div {
+          font-family: "Conv_Mont-SemiBold"; }
+    #container #magic-reviews > div .magic-review-boxes .boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      grid-gap: 30px;
+      transition: transform 0.2s ease-in-out;
+      transform: translateX(0); }
+      @media (max-width: 640px) {
+        #container #magic-reviews > div .magic-review-boxes .boxes {
+          grid-gap: 15px;
+          grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); } }
+      @media (max-width: 440px) {
+        #container #magic-reviews > div .magic-review-boxes .boxes {
           display: flex;
-          flex-direction: column;
-          background: #ffffff;
-          border: 1px solid #e9e9e9;
-          border-radius: 10px;
-          overflow: hidden;
-          padding-bottom: 18px; }
-          @media (max-width: 440px) {
-            #container #magic-reviews > div .magic-review-boxes .boxes > div {
-              min-width: 285px;
-              max-width: 285px;
-              width: 285px; } }
-          #container #magic-reviews > div .magic-review-boxes .boxes > div > span {
-            height: 169px;
-            margin-bottom: 10px; }
-            #container #magic-reviews > div .magic-review-boxes .boxes > div > span img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              object-position: center; }
-          #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div {
-            display: flex;
-            gap: 7px;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 13px 7px 13px; }
-            #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > span {
-              font-size: 14px;
-              color: #11346f;
-              font-family: "Conv_Mont-SemiBold"; }
-            #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > div {
-              gap: 8.75px; }
-              #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > div img {
-                width: 17.5px;
-                height: 17.5px; }
-              #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > div span {
-                color: #89c25f;
-                font-size: 11px;
-                font-family: "Conv_Mont-SemiBold"; }
-          #container #magic-reviews > div .magic-review-boxes .boxes > div > div > img {
-            margin-left: 10px;
-            margin-bottom: 10px; }
-          #container #magic-reviews > div .magic-review-boxes .boxes > div > div > p {
-            font-size: 13px;
-            line-height: 26px;
-            color: #262626;
-            padding: 0 17px; }
-      #container #magic-reviews > div .magic-review-boxes .review-dots {
-        margin-top: 22px;
-        gap: 10px;
-        display: none; }
+          gap: 13px;
+          /* width */ }
+          #container #magic-reviews > div .magic-review-boxes .boxes::-webkit-scrollbar {
+            width: 0px; } }
+      #container #magic-reviews > div .magic-review-boxes .boxes > div {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        border: 1px solid #e9e9e9;
+        border-radius: 10px;
+        overflow: hidden;
+        padding-bottom: 18px; }
         @media (max-width: 440px) {
-          #container #magic-reviews > div .magic-review-boxes .review-dots {
-            display: flex; } }
-        #container #magic-reviews > div .magic-review-boxes .review-dots > span {
-          width: 14px;
-          height: 14px;
-          border-radius: 50%;
-          background-color: #cbced6;
-          cursor: pointer; }
-        #container #magic-reviews > div .magic-review-boxes .review-dots > span.active {
-          background-color: #197aff !important; }
+          #container #magic-reviews > div .magic-review-boxes .boxes > div {
+            min-width: 285px;
+            max-width: 285px;
+            width: 285px; } }
+        #container #magic-reviews > div .magic-review-boxes .boxes > div > span {
+          height: 169px;
+          margin-bottom: 10px; }
+          #container #magic-reviews > div .magic-review-boxes .boxes > div > span img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center; }
+        #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div {
+          display: flex;
+          gap: 7px;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 13px 7px 13px; }
+          #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > span {
+            font-size: 14px;
+            color: #11346f;
+            font-family: "Conv_Mont-SemiBold"; }
+          #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > div {
+            gap: 8.75px; }
+            #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > div img {
+              width: 17.5px;
+              height: 17.5px; }
+            #container #magic-reviews > div .magic-review-boxes .boxes > div > div > div > div span {
+              color: #89c25f;
+              font-size: 11px;
+              font-family: "Conv_Mont-SemiBold"; }
+        #container #magic-reviews > div .magic-review-boxes .boxes > div > div > img {
+          margin-left: 10px;
+          margin-bottom: 10px; }
+        #container #magic-reviews > div .magic-review-boxes .boxes > div > div > p {
+          font-size: 13px;
+          line-height: 26px;
+          color: #262626;
+          padding: 0 17px; }
+    #container #magic-reviews > div .magic-review-boxes .review-dots {
+      margin-top: 22px;
+      gap: 10px;
+      display: none; }
+      @media (max-width: 440px) {
+        #container #magic-reviews > div .magic-review-boxes .review-dots {
+          display: flex; } }
+      #container #magic-reviews > div .magic-review-boxes .review-dots > span {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: #cbced6;
+        cursor: pointer; }
+      #container #magic-reviews > div .magic-review-boxes .review-dots > span.active {
+        background-color: #197aff !important; }
 #container #magic-faq {
   background-color: #11346f;
   padding-bottom: 70px;
