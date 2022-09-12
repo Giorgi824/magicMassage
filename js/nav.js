@@ -12,7 +12,6 @@ window.addEventListener("load", () => {
     navLinks[sectionNumber].classList.add("active");
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
       removeActive();
-      console.log(navLinks[--navLinks.length]);
       navLinks[--navLinks.length].classList.add("active");
     }
   }
