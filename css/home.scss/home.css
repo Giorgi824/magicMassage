@@ -786,6 +786,11 @@ header {
   overflow-x: hidden; }
   #container #magic-reviews > div {
     padding: 52px 0 62px 0; }
+    @media (max-width: 440px) {
+      #container #magic-reviews > div {
+        width: calc(100% - 18px);
+        margin-left: auto;
+        margin-right: 0; } }
     #container #magic-reviews > div > h1,
     #container #magic-reviews > div > h2,
     #container #magic-reviews > div > h3,
@@ -852,6 +857,9 @@ header {
         gap: 15px;
         flex-wrap: wrap;
         margin-bottom: 18px; }
+        @media (max-width: 440px) {
+          #container #magic-reviews > div .magic-review-boxes .total {
+            padding-right: 18px; } }
         #container #magic-reviews > div .magic-review-boxes .total button {
           font-size: 14px;
           color: #3a3075;

@@ -904,6 +904,11 @@ header {
     > div {
       padding: 52px 0 62px 0;
       @extend %centered-element;
+      @media (max-width: 440px) {
+        width: calc(100% - 18px);
+        margin-left: auto;
+        margin-right: 0;
+      }
       > h1,
       > h2,
       > h3,
@@ -949,7 +954,9 @@ header {
           gap: 15px;
           flex-wrap: wrap;
           margin-bottom: 18px;
-
+          @media (max-width: 440px) {
+            padding-right: 18px;
+          }
           button {
             font-size: 14px;
             color: #3a3075;
